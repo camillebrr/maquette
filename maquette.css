@@ -1,1 +1,15 @@
+html {
+    scroll-behavior: smooth;
+  }
 
+.header {
+    background-color: #34542a;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    font: 400 36px/44px Roboto, sans-serif;
+    border: 1px solid #fff;
+    -webkit-text-stroke: 1px #fff;
+    transform: rotate(-0.000060875441629213263rad);
+    border-radius: 6px;
+}
