@@ -122,3 +122,44 @@ html {
     transform: scale(1.1); 
     font-size: 28px; 
 }
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 105px 0;
+    border: 1px solid #fff;
+    transform: rotate(0.0025819962313032197rad);
+}
+
+.page2 {
+    gap: 0px;
+    display: flex;
+}
+
+.page2column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.imagepeintre {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: left;
+    width: 100%;
+    max-width: 1011px;
+    align-self: stretch;
+    border-radius: 6px;
+}
+
+.page2titre {
+    color: #34542a;
+    letter-spacing: -0.96px;
+    text-align: center;
+    margin-bottom: 50px;
+    font: 700 48px/1.2 Inter, sans-serif;
+    background-color: #fff;
+}
