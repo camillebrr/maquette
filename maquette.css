@@ -309,3 +309,53 @@ html {
   flex-wrap: wrap;
   margin-top: 40px;
 }
+
+.page3groupe {
+  align-self: flex-start;
+  display: flex;
+  gap: 40px 76px;
+  line-height: 1.2;
+  flex-wrap: wrap;
+}
+
+.page3oeuvre1 {
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.page3oeuvre2 {
+  flex-basis: auto;
+}
+
+.page3oeuvre3 {
+  line-height: 29px;
+  flex-grow: 1;
+  width: 195px;
+}
+
+.page3oeuvre1, .page3oeuvre2, .page3oeuvre3 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+.page3oeuvre1 p, .page3oeuvre2 p, .page3oeuvre3 p {
+    margin: 0;
+  }  
+
+.oeuvre-image {
+    width: 340px;
+    height: 342px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px #00000033; 
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.6s ease;
+}
+
+.oeuvre-image:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px #0000004d;
+}
+
+.italic {
+  font-style: italic;
+}
