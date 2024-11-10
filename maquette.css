@@ -163,3 +163,70 @@ html {
     font: 700 48px/1.2 Inter, sans-serif;
     background-color: #fff;
 }
+
+.page2fond {
+    background-color: #d4c6a1; 
+    padding: 25px;
+    border-radius: 6px; 
+    height: 100%;
+}
+    
+.page2droite {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.author-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: right;
+}
+
+.page2description {
+    position: relative;
+    z-index: 10;
+    border-radius: 0;
+    max-width: 80%; 
+    color: #000;
+    letter-spacing: -0.48px;
+    padding-top: -6px;
+    font: 600 24px/29px Inter, sans-serif;
+    text-align: center; 
+    margin-left: 70px; 
+    margin-top: 60px;
+}
+
+.page2collection {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.48px;
+    max-width: 252px;
+    font: 600 20px/1.2 Inter, sans-serif;
+}
+
+.jardindescouleurspage2 {
+    background-color: #34542a; 
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 40px; 
+    border-radius: 6px;
+    font-weight: 700;
+    transition: transform 0.9s ease, font-size 0.9s ease;
+    white-space: nowrap; 
+    margin-left: 195px; 
+    margin-top: 30px;
+    font-size: 23px;
+}
+    
+.jardindescouleurspage2:hover {
+    transform: scale(1.1); 
+    font-size: 26px;
+}
