@@ -358,3 +358,90 @@ html {
 .italic {
   font-style: italic;
 }
+
+.page4 {
+  background-color: #fff;
+  overflow: hidden;
+}
+.sectionpage4 {
+  gap: 20px;
+  display: flex;
+}
+.droitepage4 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin: 0;
+}
+.nouveautepage4 {
+  background-color: #b7a4754d;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: start;
+  font: 400 1rem/1.2 Inter, sans-serif;
+  letter-spacing: -0.48px;
+  justify-content: center;
+  width: 100%;
+  padding: 68px 80px;
+}
+
+.textepage4 {
+  display: flex;
+  width: 438px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 40px;
+}
+
+.titrepage4 {
+  color: #030000;
+  letter-spacing: -0.25px;
+  font: 400 57px/1 Roboto, sans-serif;
+}
+
+.soustitrepage4 {
+  color: #34542a;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  margin-top: 19px;
+}
+
+.descriptionpage4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  align-self: stretch;
+  margin-top: 48px;
+}
+
+.boutonpage4 {
+    border-radius: 6px;
+    background-color: #34542a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 44px;
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-top: 66px;
+    margin-left: 5px; 
+    transition: background-color 0.6s ease, transform 0.9s ease;
+    border: none; 
+    cursor: pointer; 
+  }
+  
+.boutonpage4:hover {
+    transform: scale(1.2); 
+  }
+  
+.imagepage4 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 20px;
+}
