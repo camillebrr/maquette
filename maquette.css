@@ -734,3 +734,116 @@ html {
   white-space: nowrap;
   margin-top: -1px;
 }
+
+.page7 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: start;
+  padding: 109px 80px 0;
+}
+
+.page7titre {
+  color: #030000;
+  font : 58px Inter, sans-serif;
+  margin-left: 80px;
+}
+
+.page7barre {
+  background-color: #34542a;
+  display: flex;
+  margin-top: 28px;
+  width: 333px;
+  max-width: 100%;
+  height: 10px;
+  margin-left: 80px;
+}
+
+.page7container {
+  align-self: center;
+  margin-top: 64px;
+  width: 100%;
+  max-width: 1229px;
+}
+
+.gallerycontainer{
+  gap: 20px;
+  display: flex;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0;
+}
+
+.gallery-column:not(:first-child) {
+  margin-left: 20px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.gallery-image {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+.gallery-image-1 {
+  aspect-ratio: 0.8;
+  transition: transform 0.5s ease, filter 0.5s ease, box-shadow 0.9s ease; 
+}
+
+.gallery-image-1:hover { 
+  transform: scale(1.07); 
+}
+
+.gallery-image-2 {
+  aspect-ratio: 0.99;
+  margin-top: -39px;
+  margin-left: 20px;
+  width: 90%;
+}
+
+.gallery-image-3 {
+  aspect-ratio: 0.85;
+  transition: transform 0.5s ease, filter 0.5s ease, box-shadow 0.9s ease; 
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+}
+
+.gallery-image-3:hover { 
+  transform: scale(1.07); 
+}
+
+.gallery-image-4 {
+  aspect-ratio: 1.25;
+  object-fit: contain;
+  object-position: center;
+  width: 94%;
+  margin-left: 10px;
+}
+
+.gallery-image-5 {
+  width: 90%;
+  margin-top: 1px;
+  transition: transform 0.5s ease, filter 0.5s ease, box-shadow 0.9s ease; 
+}
+
+.gallery-image-5:hover { 
+  transform: scale(1.07); 
+}
+
+.gallery-image-6 {
+  aspect-ratio: 1.81;
+  width: 90%;
+  margin-top: 37px;
+}
